@@ -836,9 +836,10 @@ def run_img():
     # 1.initialize parse and config objects
     args = parse_args()
     # for test in ide
+    # args.show_img = True
     # args.group_img = True
     # args.show_info = True
-    # args.show_img = True
+
     if args.config != '':
         my_config_parser = ImgConfigParser(args.config)
     else:
