@@ -635,14 +635,15 @@ def run_calculator():
 
 
 _design_info = """
-Referring to the EVN Calculator (Paragi 2012), this function provides the following parameter calculation: 
+Referring to the EVN Calculator, this function provides the following parameter calculation: 
 - the image thermal noise
 - bandwidth-smearing-limited field of view 
 - time-smearing-limited field of view
 - an estimate of the FITS file size C
 
 The calculation details please refer to our paper on 
-https://arxiv.org/abs/1808.06726v1.
+https://arxiv.org/abs/1808.06726v1. 
+Please inform us if SEFD value of your station was updated
 """
 
 if __name__ == "__main__":
