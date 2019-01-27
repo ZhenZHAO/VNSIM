@@ -507,7 +507,7 @@ def run_obs():
     # 1. initialize parse and config objects
     args = parse_args()
     # args.obs_info = True
-    args.show_gui = True
+    # args.show_gui = True
     if args.config != '':
         my_config_parser = ObsConfigParser(args.config)
     else:
