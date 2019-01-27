@@ -697,6 +697,7 @@ def parse_args():
 def run_uv_basic():
     # initialize parse and config objects
     args = parse_args()
+    # for test in ide
     # args.img_info = True
     # args.show_gui = True
     if args.config != '':
