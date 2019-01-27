@@ -238,6 +238,7 @@ def parse_args():
 def run_uv_advanced():
     # 1. initialize parse and config objects
     args = parse_args()
+    # for test in ide
     # args.show_gui = True
     # args.separate_srcs = True
     if args.config != '':
