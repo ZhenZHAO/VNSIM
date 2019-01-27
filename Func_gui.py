@@ -1023,7 +1023,8 @@ class AppGUI(object):
         self.ui_choice_second = list(range(0, 60))
 
         # para
-        self.ui_choice_unit = ['lambda', 'km']  # 'km',
+        # self.ui_choice_unit = ['lambda', 'km']  # 'km',
+        self.ui_choice_unit = ['km']  # 'km'
         self.ui_choice_precession = [0, 1, 2]
 
         # imaging
