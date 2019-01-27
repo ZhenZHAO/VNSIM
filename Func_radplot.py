@@ -139,6 +139,7 @@ def parse_args():
 
 def run_radplot():
     args = parse_args()
+    # for test in ide
     # args.show_gui = True
     # fits data
     if args.fits_file != '':
