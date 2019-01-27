@@ -545,6 +545,8 @@ def parse_args():
 def run_muiltisrc_survey():
     # 1. initialize parse
     args = parse_args()
+    # for test in ide
+    # args.show_info = True
     # 1.1 config file
     if args.config != '':
         my_config_parser = SurveyConfigParser(args.config)
