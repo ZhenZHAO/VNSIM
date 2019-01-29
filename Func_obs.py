@@ -3,6 +3,8 @@
 @author: Zhen ZHAO
 @date: Dec 26, 2018
 """
+import matplotlib as mpl
+mpl.use("TkAgg")
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.pylab as pl

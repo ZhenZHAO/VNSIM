@@ -5,6 +5,7 @@
 """
 
 import matplotlib as mpl
+mpl.use("TkAgg")
 import numpy as np
 import matplotlib.pyplot as plt
 import argparse

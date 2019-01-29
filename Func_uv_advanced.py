@@ -3,11 +3,9 @@
 @author: Zhen ZHAO
 @date: Nov 3, 2018
 """
-import load_conf as lc
-import utility as ut
-import model_effect as me
-import model_satellite as ms
-import model_obs_ability as mo
+
+import matplotlib as mpl
+mpl.use("TkAgg")
 import numpy as np
 import matplotlib.pyplot as plt
 import argparse
@@ -16,6 +14,12 @@ import os
 import pickle
 import time
 import multiprocessing
+
+import load_conf as lc
+import utility as ut
+import model_effect as me
+import model_satellite as ms
+import model_obs_ability as mo
 
 from Func_uv import FuncUv, UVConfigParser
 

@@ -3,6 +3,9 @@
 @author: Zhen ZHAO
 @date: May 19, 2018
 """
+import matplotlib as mpl
+mpl.use("TkAgg")
+
 import tkinter as tk
 from tkinter import messagebox
 
@@ -13,8 +16,6 @@ import cmath
 import os
 import argparse
 import time
-import matplotlib as mpl
-mpl.use("TkAgg")
 import matplotlib.pyplot as plt
 
 # Data of the input file is instored in the following format:

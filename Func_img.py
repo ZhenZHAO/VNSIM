@@ -5,6 +5,7 @@
 """
 import os
 import matplotlib as mpl
+mpl.use("TkAgg")
 import matplotlib.image as plimg
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
