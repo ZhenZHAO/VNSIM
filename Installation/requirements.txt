@@ -1,0 +1,12 @@
+astropy==2.0.2
+certifi==2016.2.28
+cycler==0.10.0
+matplotlib==2.0.2
+numpy==1.13.1
+py==1.4.34
+pyparsing==2.2.0
+pytest==3.2.1
+python-dateutil==2.6.1
+pytz==2017.2
+scipy==0.19.1
+six==1.10.0
