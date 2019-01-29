@@ -506,6 +506,7 @@ def parse_args():
 def run_obs():
     # 1. initialize parse and config objects
     args = parse_args()
+    # args.save_az_el = True
     # args.obs_info = True
     # args.show_gui = True
     if args.config != '':
@@ -547,10 +548,11 @@ def run_obs():
 
     # save az-el data
     if args.save_az_el:
-        name = "az-el-data:" + time.asctime() + '.txt'
+        name = "el-data:" + time.asctime() + '.txt'
         data_path = os.path.join(os.path.join(os.getcwd(), 'OUTPUT'), 'obs_ability')
         data_path = os.path.join(data_path, name)
-        np.savetxt(data_path, [gs_lst, azimuth, elevation], fmt='%0.4f')
+        # np.savetxt(data_path, [azimuth, elevation], fmt='%0.4f')
+        np.savetxt(data_path, elevation)
 
     # 3. calculate optimal interval
     optimal_inter, sta_best_inters, sta_best_durations, sta_all_inter = myFuncObs.get_result_best_obs_time_el()
